@@ -1,3 +1,8 @@
+
+# исключаем системные файлы 
+/DC_Store
+/LICENSE
+
 # Logs
 logs
 *.log
