@@ -1,0 +1,21 @@
+body {
+  font-family: raleway;
+}
+
+/* tex_hover */
+.tex_hover {
+  color: #212121;
+}
+.tex_hover:hover {
+  color: #2196f3;
+}
+
+/* buttons_hover */
+
+.buttons_hover:hover {
+  background-color: #2196f3;
+}
+
+.buttons_hover {
+  background-color: #f5f4fa;
+}
