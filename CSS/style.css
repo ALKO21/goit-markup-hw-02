@@ -22,11 +22,9 @@ li {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-.logo_text1 {
   color: #2196f3;
 }
-.header .logo_text2 {
+.header .logo_accent {
   color: #000000;
 }
 
@@ -146,7 +144,7 @@ section h2 {
 .footer {
   background-color: #2f303a;
 }
-.footer .logo_text2 {
+.footer .logo_accent {
   color: #ffffff;
 }
 .footer .adress {
