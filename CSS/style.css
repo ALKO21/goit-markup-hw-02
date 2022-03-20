@@ -1,6 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 /* body */
 
 body {
+  width: 1600px;
   font-family: roboto, sans-serif;
   background-color: #ffffff;
   font-size: 14px;
@@ -9,6 +20,7 @@ body {
   letter-spacing: 0.02em;
   font-style: normal;
   color: #212121;
+  outline: 2px solid tomato;
 }
 
 /* general */
@@ -16,6 +28,11 @@ li {
   list-style: none;
 }
 /* header */
+
+.header {
+  outline: 2px solid tomato;
+}
+
 .logo {
   font-size: 26px;
   font-family: 'Raleway', sans-serif;
@@ -42,6 +59,10 @@ li {
   display: flex;
 }
 
+.contacts {
+  margin: 0;
+}
+
 .header .mail {
   color: #2196f3;
   text-decoration: none;
@@ -53,24 +74,27 @@ li {
   font-weight: 500;
 }
 
-/* hero */
-.hero {
+/* hero_section */
+.hero_section {
   background: rgba(47, 48, 58, 1);
   width: 1600px;
   height: 600px;
-  text-align: center;
-  padding: 200px 452px 280px 452px;
+  /* padding: 200px 452px 280px 452px; */
+  outline: 2px solid tomato;
 }
 
-.hero > h1 {
+.hero_section .tittle {
+  margin: 0;
+  text-align: center;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  outline: 2px solid tomato;
 }
-.hero .button {
+.hero_section .button {
   font-family: inherit;
   width: 200px;
   height: 50px;
@@ -81,6 +105,7 @@ li {
   line-height: 1.9;
   letter-spacing: 0.06em;
   cursor: pointer;
+  outline: 2px solid tomato;
 }
 
 /* our_features */
@@ -89,13 +114,19 @@ section h2 {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
+  outline: 2px solid tomato;
+  margin: 0;
 }
 .our_features h3 {
   text-transform: uppercase;
+  outline: 2px solid tomato;
+  margin: 0;
 }
 .our_features p {
   color: #757575;
   line-height: 1.7;
+  outline: 2px solid tomato;
+  margin: 0;
 }
 
 /* Actions */
