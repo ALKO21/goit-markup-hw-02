@@ -38,10 +38,6 @@ li {
   color: #2196f3;
 }
 
-.nav .filter {
-  display: flex;
-}
-
 .header .mail {
   color: #2196f3;
   text-decoration: none;
@@ -57,7 +53,7 @@ li {
 .hero {
   background: rgba(47, 48, 58, 1);
   width: 1600px;
-  height: 600px;
+  /* height: 600px; */
   text-align: center;
   padding: 200px 452px 280px 452px;
 }
@@ -100,10 +96,6 @@ section h2 {
 
 /* Actions */
 
-.actions ul {
-  display: flex;
-}
-
 .actions h2 {
   font-weight: 700;
   font-size: 36px;
@@ -113,9 +105,6 @@ section h2 {
 }
 
 /* our_team */
-.our_team ul {
-  display: flex;
-}
 
 .our_team h2 {
   font-weight: 700;
@@ -173,10 +162,6 @@ section h2 {
 
 /* our_projects */
 
-.our_projects .filter {
-  display: flex;
-}
-
 .buttons {
   background-color: #f5f4fa;
   font-weight: 500;
@@ -208,7 +193,4 @@ section h2 {
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
-}
-.our_projects .img_block {
-  display: flex;
 }
