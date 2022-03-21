@@ -7,7 +7,7 @@ body {
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: 0.02em;
-  font-style: normal;
+  /* font-style: normal; */
   color: #212121;
 }
 
@@ -53,13 +53,13 @@ li {
 /* hero */
 .hero {
   background: rgba(47, 48, 58, 1);
-  width: 1600px;
+  width: 800px;
   /* height: 600px; */
   text-align: center;
   padding: 200px 452px 280px 452px;
 }
 
-.hero > h1 {
+.hero .title {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -68,36 +68,44 @@ li {
   text-transform: uppercase;
 }
 .hero .button {
-  font-family: inherit;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: none;
   width: 200px;
   height: 50px;
   background-color: #2196f3;
   color: #ffffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
+  align-items: center;
+  text-align: center;
+  font-family: inherit;
 }
 
 /* our_features */
 
-section h2 {
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
+.our_features .section_tittle {
+  visibility: hidden;
 }
-.our_features h3 {
+
+.our_features .section_title2 {
   text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.03em;
 }
-.our_features p {
+
+.features_list .text {
   color: #757575;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* Actions */
 
-.actions h2 {
+.actions .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -107,27 +115,27 @@ section h2 {
 
 /* our_team */
 
-.our_team h2 {
+.our_team .title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.our_team h3 {
+.our_team .member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 
-.our_team p {
+.our_team .text {
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0;
 }
 
 /* footer */
@@ -163,24 +171,44 @@ section h2 {
 
 /* our_projects */
 
-.buttons {
+.our_projects .button {
+  display: inline-block;
   background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   height: 26px;
+  letter-spacing: 0.03em;
   font-family: inherit;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  padding: 0px 22px 0px 22px;
 }
 
-.buttons:hover {
+.our_projects .button:hover {
   background-color: #2196f3;
+  color: #ffffff;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6px;
+  height: 26px;
   letter-spacing: 0.03em;
-  color: #ffffff;
   font-family: inherit;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  padding: 0px 22px 0px 22px;
+}
+
+/* our_projects */
+.our_projects .title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+
+  margin: 0;
 }
 
 .our_projects h2 {
